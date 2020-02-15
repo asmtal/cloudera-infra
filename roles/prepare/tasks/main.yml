@@ -1,0 +1,18 @@
+---
+- name: set hostname
+  hostname:
+    name: "{{ inventory_hostname | regex_replace('\\.pub\\.cloud\\.scaleway\\.com$', '') }}"
+
+- name: ensure libselinux-python is installed
+  yum:
+    name: libselinux-python
+    state: installed
+    update_cache: yes
+
+- name: set /etc/hosts
+  copy:
+    src: hosts
+    dest: /etc/hosts
+    owner: root
+    group: root
+    mode: u=rx,g=rx,o=rwx
