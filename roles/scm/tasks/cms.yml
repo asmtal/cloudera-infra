@@ -13,7 +13,6 @@
     dest: "{{ tmp_dir }}/cms_base.json"
   delegate_to: localhost
   become: no
-  become_user: romain
 
 # https://cloudera.github.io/cm_api/apidocs/v12/path__cm_service.html#PUT
 - name: Setup the Cloudera Management Services (CMS)
@@ -33,7 +32,6 @@
     - "'CMS instance already exists' not in cms_resp.content"
   delegate_to: localhost
   become: no
-  become_user: romain
 
 - debug:
     var: cms_resp

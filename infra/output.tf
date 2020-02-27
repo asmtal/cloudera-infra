@@ -47,10 +47,11 @@ host_template=HostTemplate-Workers
 [cdh_servers:children]
 utility_servers
 gateway_servers
+edge_servers
 master_servers
 worker_servers
 
-[all:vars]
+[cdh_servers:vars]
 ansible_user=root
   EOF
   filename = "${path.module}/../tf_hosts"
