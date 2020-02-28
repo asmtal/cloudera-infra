@@ -5,7 +5,8 @@ An Ansible Playbook that installs the Cloudera stack on RHEL/CentOS
 ## scaleway install
 
 1. launch instance on scaleway with `cd infra && terraform apply && cd ..`
-2. launch ansible playbook with the generate `tf_host` inventory `ansible-playbook -i tf_hosts site.yml`
+2. `pip install jmespath`
+3. launch ansible playbook with the generate `tf_host` inventory `ansible-playbook -i tf_hosts site.yml`
 
 ## Running the playbook
 

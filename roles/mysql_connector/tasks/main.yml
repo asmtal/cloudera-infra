@@ -18,9 +18,9 @@
 
 - name: Download MySQL Connector/J 
   get_url:
-    url: https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.48.zip
+    url: https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-8.0.19.zip
     dest: "{{ tmp_dir }}/mysql-connector-java.zip"
-    checksum: "md5:5da24facd99964f296ecde32abcd2384"
+    checksum: "md5:3c8b5c38ff073129f3d025b5bbce6b25"
     mode: 0644
   when: not mysql_connector_java.stat.exists
 
@@ -33,7 +33,7 @@
 
 - name: Copy MySQL Connector/J jar file to correct location
   copy:
-    src: "{{ tmp_dir }}/mysql-connector-java-5.1.48/mysql-connector-java-5.1.48.jar"
+    src: "{{ tmp_dir }}/mysql-connector-java-8.0.19/mysql-connector-java-8.0.19.jar"
     dest: /usr/share/java/mysql-connector-java.jar
     mode: 0644
     remote_src: yes
