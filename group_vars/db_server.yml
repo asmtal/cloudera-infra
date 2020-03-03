@@ -45,11 +45,6 @@ databases:
     user: 'hive'
     pass: 'hive_one_point'
     type: '{{ database_type }}'
-  sentry:
-    name: 'sentry'
-    user: 'sentry'
-    pass: 'sentry_one_point'
-    type: '{{ database_type }}'
   hue:
     name: 'hue'
     user: 'hue'
@@ -65,8 +60,4 @@ databases:
     user: 'das'
     pass: 'das_one_point'
     type: '{{ database_type }}'
-  ranger:
-    name: 'ranger'
-    user: 'ranger'
-    pass: 'ranger_one_point'
-    type: '{{ database_type }}'
+

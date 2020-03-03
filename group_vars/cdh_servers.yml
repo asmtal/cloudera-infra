@@ -7,8 +7,6 @@ cluster_display_name: cluster_1
 
 cdh_services:
 
-  - type: hbase
-
   - type: hdfs
     dfs_data_dir_list: /dfs/dn
     fs_checkpoint_dir_list: /dfs/snn
@@ -19,12 +17,7 @@ cdh_services:
 
   - type: hue
 
-  - type: impala
-    scratch_dirs: /tmp/impala
-
   - type: oozie
-
-  - type: sentry
 
   - type: spark
 

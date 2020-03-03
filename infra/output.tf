@@ -27,14 +27,14 @@ ${trimprefix(scaleway_instance_server.manager.id, "fr-par-1/")}.priv.cloud.scale
 scm_server
 db_server
 
-[gateway_servers]
-${trimprefix(scaleway_instance_server.edge.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Gateway
+[manager_servers]
+${trimprefix(scaleway_instance_server.manager.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Manager
 
 [edge_servers]
-${trimprefix(scaleway_instance_server.edge.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
+${trimprefix(scaleway_instance_server.edge.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Edge
 
 [master_servers]
-${trimprefix(scaleway_instance_server.master.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Master1
+${trimprefix(scaleway_instance_server.master.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Master
 
 [worker_servers]
 ${trimprefix(scaleway_instance_server.worker1.id, "fr-par-1/")}.priv.cloud.scaleway.com
@@ -46,7 +46,7 @@ host_template=HostTemplate-Workers
 
 [cdh_servers:children]
 utility_servers
-gateway_servers
+manager_servers
 edge_servers
 master_servers
 worker_servers
