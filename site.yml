@@ -58,9 +58,9 @@
     - scm
   tags: cluster_template
 
-- name: Install CDH
-  hosts: scm_server
-  roles:
-    - cdh
-  tags: cluster_template
+#- name: Install CDH
+#  hosts: scm_server
+#  roles:
+#    - cdh
+#  tags: cluster_template
 

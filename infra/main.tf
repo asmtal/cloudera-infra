@@ -76,14 +76,124 @@ resource "scaleway_instance_server" "worker3" {
   security_group_id = scaleway_instance_security_group.sg-hadoop-public.id
   placement_group_id = scaleway_instance_placement_group.availability_group.id
 }
-
-resource "scaleway_instance_ip" "edge_ip" {}
-resource "scaleway_instance_server" "edge" {
+resource "scaleway_instance_ip" "worker4_ip" {}
+resource "scaleway_instance_server" "worker4" {
   type  = "DEV1-XL"
   image = "centos_7.6"
-  name  = "edge"
+  name  = "worker4"
 
-  ip_id = scaleway_instance_ip.edge_ip.id
+  ip_id = scaleway_instance_ip.worker4_ip.id
+
+  security_group_id = scaleway_instance_security_group.sg-hadoop-public.id
+  placement_group_id = scaleway_instance_placement_group.availability_group.id
+}
+resource "scaleway_instance_ip" "worker5_ip" {}
+resource "scaleway_instance_server" "worker5" {
+  type  = "DEV1-XL"
+  image = "centos_7.6"
+  name  = "worker5"
+
+  ip_id = scaleway_instance_ip.worker5_ip.id
+
+  security_group_id = scaleway_instance_security_group.sg-hadoop-public.id
+  placement_group_id = scaleway_instance_placement_group.availability_group.id
+}
+resource "scaleway_instance_ip" "worker6_ip" {}
+resource "scaleway_instance_server" "worker6" {
+  type  = "DEV1-XL"
+  image = "centos_7.6"
+  name  = "worker6"
+
+  ip_id = scaleway_instance_ip.worker6_ip.id
+
+  security_group_id = scaleway_instance_security_group.sg-hadoop-public.id
+  placement_group_id = scaleway_instance_placement_group.availability_group.id
+}
+resource "scaleway_instance_ip" "worker7_ip" {}
+resource "scaleway_instance_server" "worker7" {
+  type  = "DEV1-XL"
+  image = "centos_7.6"
+  name  = "worker7"
+
+  ip_id = scaleway_instance_ip.worker7_ip.id
+
+  security_group_id = scaleway_instance_security_group.sg-hadoop-public.id
+  placement_group_id = scaleway_instance_placement_group.availability_group.id
+}
+resource "scaleway_instance_ip" "worker8_ip" {}
+resource "scaleway_instance_server" "worker8" {
+  type  = "DEV1-XL"
+  image = "centos_7.6"
+  name  = "worker8"
+
+  ip_id = scaleway_instance_ip.worker8_ip.id
+
+  security_group_id = scaleway_instance_security_group.sg-hadoop-public.id
+  placement_group_id = scaleway_instance_placement_group.availability_group.id
+}
+
+resource "scaleway_instance_ip" "edge1_ip" {}
+resource "scaleway_instance_server" "edge1" {
+  type  = "DEV1-S"
+  image = "centos_7.6"
+  name  = "edge1"
+
+  ip_id = scaleway_instance_ip.edge1_ip.id
+
+  security_group_id = scaleway_instance_security_group.sg-hadoop-public.id
+  placement_group_id = scaleway_instance_placement_group.availability_group.id
+}
+resource "scaleway_instance_ip" "edge2_ip" {}
+resource "scaleway_instance_server" "edge2" {
+  type  = "DEV1-S"
+  image = "centos_7.6"
+  name  = "edge2"
+
+  ip_id = scaleway_instance_ip.edge2_ip.id
+
+  security_group_id = scaleway_instance_security_group.sg-hadoop-public.id
+  placement_group_id = scaleway_instance_placement_group.availability_group.id
+}
+resource "scaleway_instance_ip" "edge3_ip" {}
+resource "scaleway_instance_server" "edge3" {
+  type  = "DEV1-S"
+  image = "centos_7.6"
+  name  = "edge3"
+
+  ip_id = scaleway_instance_ip.edge3_ip.id
+
+  security_group_id = scaleway_instance_security_group.sg-hadoop-public.id
+  placement_group_id = scaleway_instance_placement_group.availability_group.id
+}
+resource "scaleway_instance_ip" "edge4_ip" {}
+resource "scaleway_instance_server" "edge4" {
+  type  = "DEV1-S"
+  image = "centos_7.6"
+  name  = "edge4"
+
+  ip_id = scaleway_instance_ip.edge4_ip.id
+
+  security_group_id = scaleway_instance_security_group.sg-hadoop-public.id
+  placement_group_id = scaleway_instance_placement_group.availability_group.id
+}
+resource "scaleway_instance_ip" "edge5_ip" {}
+resource "scaleway_instance_server" "edge5" {
+  type  = "DEV1-S"
+  image = "centos_7.6"
+  name  = "edge5"
+
+  ip_id = scaleway_instance_ip.edge5_ip.id
+
+  security_group_id = scaleway_instance_security_group.sg-hadoop-public.id
+  placement_group_id = scaleway_instance_placement_group.availability_group.id
+}
+resource "scaleway_instance_ip" "edge6_ip" {}
+resource "scaleway_instance_server" "edge6" {
+  type  = "DEV1-S"
+  image = "centos_7.6"
+  name  = "edge6"
+
+  ip_id = scaleway_instance_ip.edge6_ip.id
 
   security_group_id = scaleway_instance_security_group.sg-hadoop-public.id
   placement_group_id = scaleway_instance_placement_group.availability_group.id
