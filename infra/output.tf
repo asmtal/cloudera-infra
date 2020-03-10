@@ -46,12 +46,12 @@ ${trimprefix(scaleway_instance_server.edge5.id, "fr-par-1/")}.priv.cloud.scalewa
 ${trimprefix(scaleway_instance_server.edge6.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Gateway
 
 [edge_servers]
-${trimprefix(scaleway_instance_server.edge1.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
-${trimprefix(scaleway_instance_server.edge2.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
-${trimprefix(scaleway_instance_server.edge3.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
-${trimprefix(scaleway_instance_server.edge4.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
-${trimprefix(scaleway_instance_server.edge5.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
-${trimprefix(scaleway_instance_server.edge6.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
+${trimprefix(scaleway_instance_server.edge1.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1  server_name=edge1
+${trimprefix(scaleway_instance_server.edge2.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1  server_name=edge2
+${trimprefix(scaleway_instance_server.edge3.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1  server_name=edge3
+${trimprefix(scaleway_instance_server.edge4.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1  server_name=edge4
+${trimprefix(scaleway_instance_server.edge5.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1  server_name=edge5
+${trimprefix(scaleway_instance_server.edge6.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1  server_name=edge6
 
 [master_servers]
 ${trimprefix(scaleway_instance_server.master.id, "fr-par-1/")}.priv.cloud.scaleway.com        host_template=HostTemplate-Master1

@@ -134,7 +134,7 @@ resource "scaleway_instance_server" "worker8" {
 
 resource "scaleway_instance_ip" "edge1_ip" {}
 resource "scaleway_instance_server" "edge1" {
-  type  = "DEV1-S"
+  type  = "DEV1-L"
   image = "centos_7.6"
   name  = "edge1"
 
@@ -145,7 +145,7 @@ resource "scaleway_instance_server" "edge1" {
 }
 resource "scaleway_instance_ip" "edge2_ip" {}
 resource "scaleway_instance_server" "edge2" {
-  type  = "DEV1-S"
+  type  = "DEV1-L"
   image = "centos_7.6"
   name  = "edge2"
 
@@ -156,7 +156,7 @@ resource "scaleway_instance_server" "edge2" {
 }
 resource "scaleway_instance_ip" "edge3_ip" {}
 resource "scaleway_instance_server" "edge3" {
-  type  = "DEV1-S"
+  type  = "DEV1-L"
   image = "centos_7.6"
   name  = "edge3"
 
@@ -167,7 +167,7 @@ resource "scaleway_instance_server" "edge3" {
 }
 resource "scaleway_instance_ip" "edge4_ip" {}
 resource "scaleway_instance_server" "edge4" {
-  type  = "DEV1-S"
+  type  = "DEV1-L"
   image = "centos_7.6"
   name  = "edge4"
 
@@ -178,7 +178,7 @@ resource "scaleway_instance_server" "edge4" {
 }
 resource "scaleway_instance_ip" "edge5_ip" {}
 resource "scaleway_instance_server" "edge5" {
-  type  = "DEV1-S"
+  type  = "DEV1-L"
   image = "centos_7.6"
   name  = "edge5"
 
@@ -189,7 +189,7 @@ resource "scaleway_instance_server" "edge5" {
 }
 resource "scaleway_instance_ip" "edge6_ip" {}
 resource "scaleway_instance_server" "edge6" {
-  type  = "DEV1-S"
+  type  = "DEV1-L"
   image = "centos_7.6"
   name  = "edge6"
 

@@ -1,0 +1,6 @@
+- name: Set up authorized keys for the user
+  authorized_key:
+    user: "{{ item.name }}"
+    key: "{{ item.key }}"
+  loop: "{{ users }}"
+  when: item.edge == server_name
