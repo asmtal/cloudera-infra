@@ -31,4 +31,4 @@
     user: "{{ item.name }}"
     key: "{{ item.key }}"
   loop: "{{ users }}"
-  when: item.edge == server_name
+  when: item.edge == inventory_hostname
