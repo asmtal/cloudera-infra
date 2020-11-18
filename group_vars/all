@@ -105,3 +105,14 @@ java_rpm_location: /tmp/jdk-8u181-linux-x64.rpm
 java_rpm_remote_src: no
 java_jce_location: /tmp/jce_policy-8.zip
 java_jce_remote_src: no
+
+users:
+  - iabd2_group1
+  - iabd2_group2
+  - iabd2_group3
+  - iabd2_group4
+  - iabd2_group5
+  - iabd2_group6
+  - iabd2_group7
+  - iabd2_group8
+

@@ -1,0 +1,19 @@
+127.0.1.1       localhost2
+127.0.0.1       localhost
+::1             localhost ip6-localhost ip6-loopback
+ff02::1         ip6-allnodes
+ff02::2         ip6-allrouters
+
+10.66.41.201 4f96270d-d510-4e05-918d-b87d262f8743.priv.instances.scw.cloud 4f96270d-d510-4e05-918d-b87d262f8743
+10.66.41.193 d271ee89-3c06-4d40-b9d6-d3c1d65feb57.priv.instances.scw.cloud d271ee89-3c06-4d40-b9d6-d3c1d65feb57
+10.69.120.21 79663291-27f5-4fb7-ac28-634c79cec301.priv.instances.scw.cloud 79663291-27f5-4fb7-ac28-634c79cec301
+10.69.120.27 24055fa6-6e57-4ead-9533-b166474c8e7e.priv.instances.scw.cloud 24055fa6-6e57-4ead-9533-b166474c8e7e
+10.69.120.31 6ceb5b0d-1adf-469c-b534-a2bb3f0c985f.priv.instances.scw.cloud 6ceb5b0d-1adf-469c-b534-a2bb3f0c985f
+10.69.120.33 12d8a21c-b626-43ef-8dd4-fa24e07626a5.priv.instances.scw.cloud 12d8a21c-b626-43ef-8dd4-fa24e07626a5
+10.69.120.35 e9a6157f-d980-4bae-8f86-823f9d20b8dc.priv.instances.scw.cloud e9a6157f-d980-4bae-8f86-823f9d20b8dc
+10.69.120.17 50178573-1359-4665-a999-7f860f51be36.priv.instances.scw.cloud 50178573-1359-4665-a999-7f860f51be36
+10.69.120.25 f0bd8d72-9828-4400-84fe-082044e8f4eb.priv.instances.scw.cloud f0bd8d72-9828-4400-84fe-082044e8f4eb
+10.69.120.23 e30311e3-e591-4cb5-a2d8-13cb65f9259a.priv.instances.scw.cloud e30311e3-e591-4cb5-a2d8-13cb65f9259a
+10.65.66.177 bab6e83c-2a27-42b6-b0f0-b66263e83587.priv.instances.scw.cloud bab6e83c-2a27-42b6-b0f0-b66263e83587
+10.69.120.29 da5d8c78-7a5f-4e83-8cd2-7f1844e550dd.priv.instances.scw.cloud da5d8c78-7a5f-4e83-8cd2-7f1844e550dd
+10.69.120.15 b749ea52-ab37-40f7-b21b-a19f1efbff3f.priv.instances.scw.cloud b749ea52-ab37-40f7-b21b-a19f1efbff3f
