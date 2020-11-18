@@ -38,8 +38,8 @@
 - name: Add paffme users to student group
   user: name=paffme groups=student append=yes state=present createhome=yes
 
-- name: Add les_trois_petits_nico_et_les_grand_mechant_thomas users to student group
-  user: name=les_trois_petits_nico_et_les_grand_mechant_thomas groups=student append=yes state=present createhome=yes
+- name: Add les_trois_petits_nico users to student group
+  user: name=les_trois_petits_nico groups=student append=yes state=present createhome=yes
 
 - name: Add vivhaldoop users to student group
   user: name=vivhaldoop groups=student append=yes state=present createhome=yes
