@@ -106,7 +106,7 @@ java_rpm_remote_src: no
 java_jce_location: /tmp/jce_policy-8.zip
 java_jce_remote_src: no
 
-users:
+iabd2:
   - iabd2_group1
   - iabd2_group2
   - iabd2_group3

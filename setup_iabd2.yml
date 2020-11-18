@@ -1,0 +1,12 @@
+---
+- name: add user and ssh key for iabd2 on edges
+  become: true
+  hosts: edge_servers
+  roles:
+  - add_users
+
+- name: add user and ssh key for iabd2 on workers
+  become: true
+  hosts: worker_servers
+  roles:
+  - add_users
