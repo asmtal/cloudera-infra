@@ -58,6 +58,13 @@
     - scm
   tags: cluster_template
 
+- name: Init Edge for course
+  hosts: edge_servers
+  roles:
+    - setup_edge
+  tags:
+    - prepare
+
 #- name: Install CDH
 #  hosts: scm_server
 #  roles:

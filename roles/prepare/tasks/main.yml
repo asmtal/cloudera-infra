@@ -29,24 +29,14 @@
     line: '%student ALL=(ALL) NOPASSWD: ALL'
     validate: 'visudo -cf %s'
 
-- name: Add noname users to student group
-  user: name=noname groups=student append=yes state=present createhome=yes
-
-- name: Add bessa users to student group
-  user: name=bessa groups=student append=yes state=present createhome=yes
-
-- name: Add paffme users to student group
-  user: name=paffme groups=student append=yes state=present createhome=yes
-
-- name: Add les_trois_petits_nico users to student group
-  user: name=les_trois_petits_nico groups=student append=yes state=present createhome=yes
-
-- name: Add vivhaldoop users to student group
-  user: name=vivhaldoop groups=student append=yes state=present createhome=yes
-
-- name: Add hapoop users to student group
-  user: name=hapoop groups=student append=yes state=present createhome=yes
-
+- name: Add users to student group
+  user:
+    name: "{{ item.name }}"
+    groups: student
+    append: yes
+    state: present
+    createhome: yes
+  loop: "{{ users }}"
 
 - name: Unconditionally reboot the machine with all defaults
   reboot:
