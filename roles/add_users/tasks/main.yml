@@ -5,10 +5,10 @@
     group: student
   loop: "{{ iabd2 }}"
 
-  #  - name: Set up multiple authorized keys
-  #authorized_key:
-  # user: deploy
-  # state: present
-  # key: "keys/{{ item }}.pub"
-  # loop: "{{ iabd2 }}"
+- name: Set up multiple authorized keys
+  authorized_key:
+    user: "{{ item }}"
+    state: present
+    key: "{{ lookup('file', 'keys/' + item + '.pub') }}"
+  loop: "{{ iabd2 }}"
 
