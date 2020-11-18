@@ -1,0 +1,8 @@
+---
+- name: Init Edge for course
+  hosts: cdh_servers
+  roles:
+  - setup_edge
+  tags:
+  - prepare
+
