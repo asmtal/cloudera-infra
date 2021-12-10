@@ -1,8 +1,15 @@
 provider "scaleway" {
-  version = "1.13"
-  organization_id = "a1f482fa-bcaa-429f-b01f-95bab7bd91c2"
+  project_id      = "b82e36c8-4f62-49ea-a95b-219127c13e4c"
   region          = "fr-par"
   zone            = "fr-par-1"
+}
+terraform {
+  required_providers {
+    scaleway = {
+      source = "scaleway/scaleway"
+    }
+  }
+  required_version = ">= 0.13"
 }
 
 resource "scaleway_instance_placement_group" "availability_group" {
