@@ -12,4 +12,3 @@ venv
 *.tfstate
 *.tfstate.backup
 .terraform
-tf_hosts

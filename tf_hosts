@@ -1,0 +1,49 @@
+[scm_server]
+e01e8dce-d53f-4b5f-a964-18cf036328a8.priv.instances.scw.cloud
+
+[db_server]
+e01e8dce-d53f-4b5f-a964-18cf036328a8.priv.instances.scw.cloud
+
+[utility_servers:children]
+scm_server
+db_server
+
+[gateway_servers]
+74d39643-54bd-476e-8986-0a7036321bb5.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
+634a9023-410a-4b56-8d46-48d86d10ccc3.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
+5b8aa03d-ca66-49a6-97b6-979342f4a54d.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
+bccc4a61-6944-43b8-ac6f-88168d5ddc40.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
+a838552e-205e-4cae-ad52-8b8491848cc2.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
+e395a7cc-55b2-4659-a82d-15cef66eb03c.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
+95dc41c7-ee68-4edb-995a-f133b51841f8.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
+
+[edge_servers]
+74d39643-54bd-476e-8986-0a7036321bb5.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
+634a9023-410a-4b56-8d46-48d86d10ccc3.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
+5b8aa03d-ca66-49a6-97b6-979342f4a54d.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
+bccc4a61-6944-43b8-ac6f-88168d5ddc40.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
+a838552e-205e-4cae-ad52-8b8491848cc2.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
+e395a7cc-55b2-4659-a82d-15cef66eb03c.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
+95dc41c7-ee68-4edb-995a-f133b51841f8.priv.instances.scw.cloud       host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
+
+[master_servers]
+bce6a18f-7956-4a49-b692-7267fd865f45.priv.instances.scw.cloud        host_template=HostTemplate-Master1
+
+[worker_servers]
+a81d62d6-0ff5-4d84-8a85-eb182271fa49.priv.instances.scw.cloud
+4aa11a84-6acc-4528-99b7-833eb7f4baa1.priv.instances.scw.cloud
+667aa3b7-32de-4666-9bb7-6d7c62667139.priv.instances.scw.cloud
+535dd3cd-06e7-424e-8eb9-695d6614d6ef.priv.instances.scw.cloud
+
+[worker_servers:vars]
+host_template=HostTemplate-Workers
+
+[cdh_servers:children]
+utility_servers
+gateway_servers
+edge_servers
+master_servers
+worker_servers
+
+[cdh_servers:vars]
+ansible_user=root
