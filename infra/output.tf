@@ -50,7 +50,7 @@ ${trimprefix(scaleway_instance_server.edge3.id, "fr-par-1/")}.priv.instances.scw
 ${trimprefix(scaleway_instance_server.edge4.id, "fr-par-1/")}.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
 ${trimprefix(scaleway_instance_server.edge5.id, "fr-par-1/")}.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
 ${trimprefix(scaleway_instance_server.edge6.id, "fr-par-1/")}.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
-${trimprefix(scaleway_instance_server.edge7.id, "fr-par-1/")}.priv.instances.scw.cloud       host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
+${trimprefix(scaleway_instance_server.edge7.id, "fr-par-1/")}.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
 
 [master_servers]
 ${trimprefix(scaleway_instance_server.master.id, "fr-par-1/")}.priv.instances.scw.cloud        host_template=HostTemplate-Master1
