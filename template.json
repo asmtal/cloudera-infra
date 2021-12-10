@@ -1,6 +1,6 @@
 {
-    "cdhVersion": "7.1.4",
-    "cmVersion": "7.1.4",
+    "cdhVersion": "7.4.4",
+    "cmVersion": "7.4.4",
     "displayName": "Cluster 2", 
     "hostTemplates": [
         {

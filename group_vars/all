@@ -40,11 +40,11 @@ tmp_dir: /tmp
 ## ------------------------------------------------------------------------------------------------------------
 
 # Version of CDH to install
-cluster_version_cdh: 7.1.4
+cluster_version_cdh: 7.4.4
 #cluster_version_cdh: 7.x
 
 # Version of Cloudera Manager to install
-cluster_version_cm:  7.1.4
+cluster_version_cm:  7.4.4
 #cluster_version_cm:  "{{ cluster_version_cdh }}"
 #cluster_version_cm:  7.x.0
 
