@@ -21,7 +21,7 @@
 #  ansible.builtin.shell: pip3 install wheel
 
 - name: install virtualenv
-  ansible.builtin.shell: pip3 install wheel
+  ansible.builtin.shell: pip3 install virtualenv
 
 #- name: install airflow
 #  ansible.builtin.shell: pip3 install "apache-airflow==2.2.2" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.2.2/constraints-3.6.txt"
