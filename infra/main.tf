@@ -178,7 +178,7 @@ resource "scaleway_instance_ip" "bastion_ip" {}
 resource "scaleway_instance_server" "bastion" {
   type  = "DEV1-S"
   image = "centos_7.6"
-  name  = "edge7"
+  name  = "bastion"
 
   ip_id = scaleway_instance_ip.bastion_ip.id
 
