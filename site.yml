@@ -71,3 +71,9 @@
 #    - cdh
 #  tags: cluster_template
 
+- name: Install airflow
+  hosts: edge_servers
+  roles:
+    - airflow
+  tags: airflow
+
