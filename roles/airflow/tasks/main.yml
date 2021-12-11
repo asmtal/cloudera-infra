@@ -38,4 +38,4 @@
     sqlite3 -version
 
 - name: run airflow
-  ansible.builtin.shell: airflow standalone
+  ansible.builtin.shell: nohup airflow standalone 0<&- &>/dev/null &
