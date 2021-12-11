@@ -6,16 +6,16 @@
     update_cache: yes
 
 - name: upgrade pip
-  ansible.builtin.shell: pip3 installl --upgrade pip
+  ansible.builtin.shell: pip3 install --upgrade pip
 
 - name: install rust
-  ansible.builtin.shell: pip3 installl setuptools_rust
+  ansible.builtin.shell: pip3 install setuptools_rust
 
 - name: install wheel
-  ansible.builtin.shell: pip3 installl wheel
+  ansible.builtin.shell: pip3 install wheel
 
 - name: install airflow
   ansible.builtin.shell: pip3 install "apache-airflow==2.2.2" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.2.2/constraints-3.6.txt"
 
-- name: install wheel
+- name: run airflow
   ansible.builtin.shell: airflow standalone
