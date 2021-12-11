@@ -177,7 +177,7 @@ resource "scaleway_instance_server" "edge7" {
 resource "scaleway_instance_ip" "bastion_ip" {}
 resource "scaleway_instance_server" "bastion" {
   type  = "DEV1-S"
-  image = "centos_7.6"
+  image = "ubuntu_focal"
   name  = "bastion"
 
   ip_id = scaleway_instance_ip.bastion_ip.id
