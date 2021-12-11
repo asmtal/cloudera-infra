@@ -1,0 +1,21 @@
+---
+- name: install python3
+  yum:
+    name: python3
+    state: installed
+    update_cache: yes
+
+- name: upgrade pip
+  ansible.builtin.shell: pip3 installl --upgrade pip
+
+- name: install rust
+  ansible.builtin.shell: pip3 installl setuptools_rust
+
+- name: install wheel
+  ansible.builtin.shell: pip3 installl wheel
+
+- name: install airflow
+  ansible.builtin.shell: pip3 install "apache-airflow==2.2.2" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.2.2/constraints-3.6.txt"
+
+- name: install wheel
+  ansible.builtin.shell: airflow standalone
