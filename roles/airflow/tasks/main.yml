@@ -5,6 +5,12 @@
     state: installed
     update_cache: yes
 
+- name: install gcc
+  yum:
+    name: gcc
+    state: installed
+    update_cache: yes
+
 - name: upgrade pip
   ansible.builtin.shell: pip3 install --upgrade pip
 
