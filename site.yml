@@ -77,3 +77,9 @@
     - airflow
   tags: airflow
 
+- name: Add ssh key for students
+  hosts: cdh_servers
+  roles:
+    - setup_edge
+  tags:
+    - prepare

@@ -4,16 +4,16 @@
 ff02::1         ip6-allnodes
 ff02::2         ip6-allrouters
 
-10.66.41.1 cb772fd2-c9a5-4d28-b0d3-31dcb270064c.priv.instances.scw.cloud cb772fd2-c9a5-4d28-b0d3-31dcb270064c
-10.66.41.3 f5b4475b-35ca-4c17-b43c-1d2c846c1cc7.priv.instances.scw.cloud f5b4475b-35ca-4c17-b43c-1d2c846c1cc7
-10.74.102.31 e18c7936-faa8-429d-a168-b53e9ebc22ec.priv.instances.scw.cloud e18c7936-faa8-429d-a168-b53e9ebc22ec
-10.65.52.71 6da1b327-d211-4dd7-a119-36652aeb8586.priv.instances.scw.cloud 6da1b327-d211-4dd7-a119-36652aeb8586
-10.65.52.117 48c488f8-c51b-45c3-a16a-a259b81268ea.priv.instances.scw.cloud 48c488f8-c51b-45c3-a16a-a259b81268ea
-10.74.102.39 95d1179f-a1aa-4fc0-85a9-27fcac44bb32.priv.instances.scw.cloud 95d1179f-a1aa-4fc0-85a9-27fcac44bb32
-10.65.52.5 29b272b6-dfe6-4273-b0ae-b57b59a0f533.priv.instances.scw.cloud 29b272b6-dfe6-4273-b0ae-b57b59a0f533
-10.65.52.45 0624ee3b-6172-49a9-b179-336a62a64f50.priv.instances.scw.cloud 0624ee3b-6172-49a9-b179-336a62a64f50
-10.65.52.47 069940c3-f7b2-4bc9-b316-f5d80f24948a.priv.instances.scw.cloud 069940c3-f7b2-4bc9-b316-f5d80f24948a
-10.65.52.51 0acbf919-fad1-45bf-b19a-c609c38b713f.priv.instances.scw.cloud 0acbf919-fad1-45bf-b19a-c609c38b713f
-10.74.102.65 3204f479-2f55-4273-8631-213e065a0c2e.priv.instances.scw.cloud 3204f479-2f55-4273-8631-213e065a0c2e
-10.74.102.69 1214178e-ed6a-4d6d-a580-f154dfc11ddc.priv.instances.scw.cloud 1214178e-ed6a-4d6d-a580-f154dfc11ddc
-10.65.52.89 4f51115a-bb26-4595-ac9e-679d72a432a5.priv.instances.scw.cloud 4f51115a-bb26-4595-ac9e-679d72a432a5
+10.194.99.137 ae26288c-e593-40dd-89be-30bc8b1bf7f0.priv.instances.scw.cloud ae26288c-e593-40dd-89be-30bc8b1bf7f0
+10.194.99.143 c0f2c922-8ac2-4481-803b-4987fc1aeb5c.priv.instances.scw.cloud c0f2c922-8ac2-4481-803b-4987fc1aeb5c
+10.72.34.3 aa31e5ba-fbf8-4a6a-845d-d55f77fd154a.priv.instances.scw.cloud aa31e5ba-fbf8-4a6a-845d-d55f77fd154a
+10.72.34.21 9b5d3a67-2eb3-4f69-9d72-62f350fafcaa.priv.instances.scw.cloud 9b5d3a67-2eb3-4f69-9d72-62f350fafcaa
+10.72.34.23 6e08e5a7-140f-438f-bb13-78517bf1bcd2.priv.instances.scw.cloud 6e08e5a7-140f-438f-bb13-78517bf1bcd2
+10.72.34.15 874d7b79-dbe2-44b0-85bd-b806acd1984f.priv.instances.scw.cloud 874d7b79-dbe2-44b0-85bd-b806acd1984f
+10.72.34.13 c9f3441c-257a-4993-a077-4e9c0645ba4f.priv.instances.scw.cloud c9f3441c-257a-4993-a077-4e9c0645ba4f
+10.72.34.5 7299b165-3bf3-4a54-bb2d-0cccf3e34a0a.priv.instances.scw.cloud 7299b165-3bf3-4a54-bb2d-0cccf3e34a0a
+10.72.34.11 4fea8034-6231-4ca0-b838-54c0329e612b.priv.instances.scw.cloud 4fea8034-6231-4ca0-b838-54c0329e612b
+10.72.34.17 6f9c962d-160a-4ded-9cf1-8afa59b834a8.priv.instances.scw.cloud 6f9c962d-160a-4ded-9cf1-8afa59b834a8
+10.72.34.9 b3550c5b-8e3f-4c70-a56a-7fa771df3550.priv.instances.scw.cloud b3550c5b-8e3f-4c70-a56a-7fa771df3550
+10.72.34.19 e2d12665-4aa5-4438-80f1-2172d595dafe.priv.instances.scw.cloud e2d12665-4aa5-4438-80f1-2172d595dafe
+10.72.34.1 cbd8b1c6-41d8-4c42-a981-ff11f091f59f.priv.instances.scw.cloud cbd8b1c6-41d8-4c42-a981-ff11f091f59f
