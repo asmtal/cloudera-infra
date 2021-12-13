@@ -4,28 +4,6 @@
     state: installed
     update_cache: yes
 
-- name: Make sure we have a 'student' group
-  group:
-    name: student
-    state: present
-
-- name: Allow 'student' group to have passwordless sudo
-  lineinfile:
-    dest: /etc/sudoers
-    state: present
-    regexp: '^%student'
-    line: '%student ALL=(ALL) NOPASSWD: ALL'
-    validate: 'visudo -cf %s'
-
-- name: Add users to student group
-  user:
-    name: "{{ item.name }}"
-    groups: student
-    append: yes
-    state: present
-    createhome: yes
-  loop: "{{ users }}"
-
 - name: Set up authorized keys for the user
   authorized_key:
     user: "{{ item.name }}"
