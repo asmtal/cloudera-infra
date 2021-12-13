@@ -2,7 +2,7 @@
 - name: "create user"
   user:
     name: "{{ item }}"
-    group: student
+    group: root
   loop: "{{ iabd2 }}"
 
 - name: Set up multiple authorized keys
