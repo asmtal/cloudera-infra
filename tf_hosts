@@ -1,39 +1,39 @@
 [scm_server]
-ae26288c-e593-40dd-89be-30bc8b1bf7f0.priv.instances.scw.cloud
+386e1dcd-114b-447a-bd53-04fd08254ccb.priv.instances.scw.cloud
 
 [db_server]
-ae26288c-e593-40dd-89be-30bc8b1bf7f0.priv.instances.scw.cloud
+386e1dcd-114b-447a-bd53-04fd08254ccb.priv.instances.scw.cloud
 
 [utility_servers:children]
 scm_server
 db_server
 
 [gateway_servers]
-aa31e5ba-fbf8-4a6a-845d-d55f77fd154a.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
-9b5d3a67-2eb3-4f69-9d72-62f350fafcaa.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
-6e08e5a7-140f-438f-bb13-78517bf1bcd2.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
-874d7b79-dbe2-44b0-85bd-b806acd1984f.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
-c9f3441c-257a-4993-a077-4e9c0645ba4f.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
-7299b165-3bf3-4a54-bb2d-0cccf3e34a0a.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
-4fea8034-6231-4ca0-b838-54c0329e612b.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
+9fdf093d-8597-44b4-b24c-72ad06f4da03.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
+390d4245-97b3-4f31-b29d-b5e1e7243ab2.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
+b4e7ed5c-ee42-48a8-9e36-fc2543871326.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
+b6cef462-c5f8-4c11-9158-db995e43843f.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
+4c5979ca-7fff-41cd-814d-9e141023921d.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
+c8ec1549-0bb4-4cf5-8db2-d82e4cda643c.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
+c5b87143-fb4b-4550-9b67-32db693d744d.priv.instances.scw.cloud        host_template=HostTemplate-Gateway
 
 [edge_servers]
-aa31e5ba-fbf8-4a6a-845d-d55f77fd154a.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
-9b5d3a67-2eb3-4f69-9d72-62f350fafcaa.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
-6e08e5a7-140f-438f-bb13-78517bf1bcd2.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
-874d7b79-dbe2-44b0-85bd-b806acd1984f.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
-c9f3441c-257a-4993-a077-4e9c0645ba4f.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
-7299b165-3bf3-4a54-bb2d-0cccf3e34a0a.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
-4fea8034-6231-4ca0-b838-54c0329e612b.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
+9fdf093d-8597-44b4-b24c-72ad06f4da03.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
+390d4245-97b3-4f31-b29d-b5e1e7243ab2.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
+b4e7ed5c-ee42-48a8-9e36-fc2543871326.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
+b6cef462-c5f8-4c11-9158-db995e43843f.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
+4c5979ca-7fff-41cd-814d-9e141023921d.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
+c8ec1549-0bb4-4cf5-8db2-d82e4cda643c.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
+c5b87143-fb4b-4550-9b67-32db693d744d.priv.instances.scw.cloud        host_template=HostTemplate-Edge    role_ref_names=HDFS-HTTPFS-1
 
 [master_servers]
-c0f2c922-8ac2-4481-803b-4987fc1aeb5c.priv.instances.scw.cloud        host_template=HostTemplate-Master1
+8de53d22-71e8-443c-b675-78414b8d54df.priv.instances.scw.cloud        host_template=HostTemplate-Master1
 
 [worker_servers]
-6f9c962d-160a-4ded-9cf1-8afa59b834a8.priv.instances.scw.cloud
-b3550c5b-8e3f-4c70-a56a-7fa771df3550.priv.instances.scw.cloud
-e2d12665-4aa5-4438-80f1-2172d595dafe.priv.instances.scw.cloud
-cbd8b1c6-41d8-4c42-a981-ff11f091f59f.priv.instances.scw.cloud
+d467e472-991a-4f2a-b67e-78b03903ce38.priv.instances.scw.cloud
+41ad581b-ac61-47e8-a5fa-e787c01c40dd.priv.instances.scw.cloud
+cd65dc64-b15a-48f9-9d45-14b088fdd912.priv.instances.scw.cloud
+d959222d-7d37-4145-bb30-f5984ecbc51a.priv.instances.scw.cloud
 
 [worker_servers:vars]
 host_template=HostTemplate-Workers
